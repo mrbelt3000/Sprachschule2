@@ -30,28 +30,5 @@
 
    
 </body>
-     <!-- Firebase SDK -->
-    <script src="app.js"></script>
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
-        import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
-        import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
-
-        const firebaseConfig = {
-            apiKey: "AIzaSyBvwJ3ITvxoJi_OuzTXHVAs1n2GqYbA2wE",
-            authDomain: "linguaplatform-9174d.firebaseapp.com",
-            projectId: "linguaplatform-9174d",
-            storageBucket: "linguaplatform-9174d.appspot.com",
-            messagingSenderId: "532901018330",
-            appId: "1:532901018330:web:08b1443068c775d885c3e3",
-            measurementId: "G-VHMSC12V11"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const auth = getAuth(app);
-        const db = getFirestore(app);
-    </script>
+  
 </html>
